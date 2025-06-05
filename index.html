@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7fac8bad8a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imges/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <br><span>Aashutosh </span>Kr. Sah <br></h1>
+                <h3>Graphics Designer</h3>
+            </div>
+        </div>
+    </div>
+    <!-----------About------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imges/About.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Aashutosh Kumar sah, a passionate Designer specialing in Ui/Ux Designing. I love building
+                        intuitive and dynamic web applications that make a difference.
+                        I design with pixels and build with code — creating experiences that look great and feel even
+                        better. I’m currently looking for opportunities where I can grow as a developer and contribute
+                        to impactful projects.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Graphics Designer</span><br>Making Different logo and Designing logo,pamplet</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>2024 - 2025</span><br>UI/UX Designer Training </li>
+                            <li><span>2023 - 2023</span><br>Graphic Designer 3 Months Training at Oxford Technincal Institute</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-current</span><br>B-Tech in Computer Science and Engineering at MMDU</li>
+                            <li><span>2023</span><br>Completed +2 level Education</li>
+                            <li><span>2021</span><br>Completed School level Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------Services--------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Passionate UI/UX designer crafting intuitive, user-focused designs with Figma and Adobe XD through research, prototyping, testing, and collaboration.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creative graphic designer crafting compelling visuals with Photoshop, Illustrator, and InDesign, balancing aesthetics and function to communicate unique brand stories.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Frontend Developer</h2>
+                    <p> Creative frontend developer building responsive, user-friendly websites with HTML, CSS, JavaScript, and React, blending functionality with clean design</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------Portfolio--------------------------------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imges/work-1.png">
+                    <div class="layer">
+                        <h3>Food Deliver websites</h3>
+                        <p>The website connects you to the best local restaurants and delivers your favorite meals right to your doorstep.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                 <img src="imges/work-2.png">
+                 <div class="layer">
+                    <h3>Nep Cure website</h3>
+                        <p>The website helps you identify diseases through symptoms and connects you to nearby hospitals for quick and reliable care.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+                </div>
+                <div class="work">
+                    <img src="imges/work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talanted people around the world.
+                            Dowload it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+<!-- -----------------------Contact------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aashutoshsah459@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+917015709539</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aashutosh.sah.12"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/aashutoshsah602/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aashutosh-sah-55908828a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Aashu1679"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="imges/my-cv.pdf" class="btn btn2" download>Dowland the resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required >
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aashutosh Kr. Sah. All rights reserved.</p>
+    </div>
+ </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+       
+       var sidemenun = document.getElementById("sidemenu");
+
+       function openmenu(){
+        sidemenun.style.right = "0";
+       }
+
+       function closemenu(){
+        sidemenun.style.right = "-200px";
+       }
+
+
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxZgl3cRSnK0XvOOdhAeb372oZ2MwUlqxJHzKSFHW5EERazoFwrUfC7yZiwm9BDiRYY/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
